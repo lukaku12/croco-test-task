@@ -3,8 +3,6 @@ import vuetify from "@/config/vuetify/index.ts";
 import {messageServicePlugin} from "@/service/message/index.ts";
 import {Component} from "vue";
 
-// import {useRoute} from "vue-router";
-
 interface Options {
     global: {
         config: {
@@ -27,9 +25,6 @@ export default {
             messageServicePlugin
         ];
 
-        // vi.mock('vue-router', () => {
-        //     route: useRoute()
-        // })
 
         return options;
     },
