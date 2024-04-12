@@ -35,7 +35,7 @@
         <v-list-item link height="64" class="pr-14 " :class="isCurrentRoute(navLink) && 'bg-white'">
           <v-card v-if="isCurrentRoute(navLink)" color="primary" width="7" height="100%" rounded="0" class="activeGreenMark"></v-card>
           <div class="pl-5 d-flex font-weight-medium">
-            <v-icon :icon="navLink.icon"/>
+            <component :is="navLink.icon"/>
             <span class="pl-4">{{ navLink.title }}</span>
           </div>
         </v-list-item>

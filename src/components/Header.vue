@@ -4,7 +4,7 @@
       <v-col align-self="center" class="d-flex">
         <v-btn :icon="IconLeftArrow" variant="plain" class="pr-1 mr-2"></v-btn>
         <div class="d-flex justify-center align-center">
-          <v-icon :icon="currentRoute?.icon" class="mr-2"/>
+          <component :is="currentRoute?.icon" class="mr-2"/>
           <span class="font-weight-medium">{{ currentRoute?.title }}</span>
         </div>
       </v-col>
