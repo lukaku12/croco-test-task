@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'geoFont';
+    src: url('@/assets/fonts/bpg_extrasquare_mtavruli_2009.ttf') format('truetype');
+}
+
+body {
+    font-family: 'geoFont', sans-serif;
+    background-color: #DFE5E7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
